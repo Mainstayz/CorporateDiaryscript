@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<logentry
+   revision="71047">
+<author>zhq</author>
+<date>2017-11-03T10:43:03.435911Z</date>
+<msg>1.悬赏详情聊天按钮布局问题修复</msg>
+</logentry>
+<logentry
+   revision="71039">
+<author>zhq</author>
+<date>2017-11-03T06:28:43.529883Z</date>
+<msg>1.添加红包支付同步失败再次同步；</msg>
+</logentry>
+<logentry
+   revision="71038">
+<author>zhq</author>
+<date>2017-11-03T04:32:26.570171Z</date>
+<msg>1.添加红包支付同步失败再次同步；</msg>
+</logentry>
+<logentry
+   revision="71036">
+<author>xyh</author>
+<date>2017-11-03T04:01:28.254312Z</date>
+<msg>1.红包发送小数点输入异常</msg>
+</logentry>
+<logentry
+   revision="71021">
+<author>hzz</author>
+<date>2017-11-02T10:23:08.379314Z</date>
+<msg>更改配置文件的描述文案</msg>
+</logentry>
+<logentry
+   revision="71017">
+<author>hzz</author>
+<date>2017-11-02T09:01:46.925243Z</date>
+<msg>更新详情头文件</msg>
+</logentry>
+<logentry
+   revision="71014">
+<author>zhq</author>
+<date>2017-11-02T08:31:51.740414Z</date>
+<msg>1.去掉九宫格圈图标，更换占位图；</msg>
+</logentry>
+<logentry
+   revision="71012">
+<author>xyh</author>
+<date>2017-11-02T08:18:41.299346Z</date>
+<msg>1.订单详情侧滑</msg>
+</logentry>
+<logentry
+   revision="71001">
+<author>zhq</author>
+<date>2017-11-02T04:01:36.892807Z</date>
+<msg>1.聊天界面修改，占位头像替换；</msg>
+</logentry>
+<logentry
+   revision="70996">
+<author>xyh</author>
+<date>2017-11-02T02:42:33.310311Z</date>
+<msg>1.点击确认完成请求</msg>
+</logentry>
+<logentry
+   revision="70995">
+<author>xyh</author>
+<date>2017-11-02T02:39:34.746988Z</date>
+<msg>1.点击确认完成先判断开始时间</msg>
+</logentry>
+<logentry
+   revision="70992">
+<author>xyh</author>
+<date>2017-11-02T02:13:52.722866Z</date>
+<msg>1.点击确认完成先判断开始时间</msg>
+</logentry>
+<logentry
+   revision="70991">
+<author>xyh</author>
+<date>2017-11-02T02:07:53.524585Z</date>
+<msg>1.点击确认完成先判断开始时间</msg>
+</logentry>
+<logentry
+   revision="70988">
+<author>zhq</author>
+<date>2017-11-02T01:07:40.895848Z</date>
+<msg>1.修改拒绝预约前的提示；</msg>
+</logentry>
+<logentry
+   revision="70987">
+<author>zhq</author>
+<date>2017-11-01T13:06:22.043947Z</date>
+<msg>1.解决消息发送失败，重新发送没有更新数据源就消息导致显示重复消息的问题；</msg>
+</logentry>
+<logentry
+   revision="70986">
+<author>xyh</author>
+<date>2017-11-01T11:33:57.209147Z</date>
+<msg>1.关闭从通知列表、订单列表、发布悬赏跳转到悬赏订单详情界面后的侧滑返回</msg>
+</logentry>
+<logentry
+   revision="70982">
+<author>zhq</author>
+<date>2017-11-01T10:29:10.630028Z</date>
+<msg>1.解决消息通知列表确认服务区域跳转不同的问题；</msg>
+</logentry>
+<logentry
+   revision="70975">
+<author>hzz</author>
+<date>2017-11-01T09:18:16.114345Z</date>
+<msg>订单详情 plit 文件备份</msg>
+</logentry>
+<logentry
+   revision="70974">
+<author>zhq</author>
+<date>2017-11-01T09:16:16.694049Z</date>
+<msg>1.九宫格群聊图标；</msg>
+</logentry>
+<logentry
+   revision="70973">
+<author>zhq</author>
+<date>2017-11-01T09:11:18.806320Z</date>
+<msg>1.悬赏订单详情提示修改；</msg>
+</logentry>
+<logentry
+   revision="70972">
+<author>zhq</author>
+<date>2017-11-01T09:09:03.707722Z</date>
+<msg>1.悬赏订单详情提示修改；
+2.悬赏订单列表未选抢单人支付刷新处理。</msg>
+</logentry>
+<logentry
+   revision="70960">
+<author>zhq</author>
+<date>2017-11-01T06:17:03.333743Z</date>
+<msg>1.悬赏订单支付通知回调；</msg>
+</logentry>
+<logentry
+   revision="70958">
+<author>zhq</author>
+<date>2017-11-01T04:32:54.898293Z</date>
+<msg>1.悬赏订单支付通知回调；
+2.订单列表状态核对。</msg>
+</logentry>
+<logentry
+   revision="70955">
+<author>hzz</author>
+<date>2017-11-01T03:49:43.366374Z</date>
+<msg>修改字段newReserveStatus</msg>
+</logentry>
+<logentry
+   revision="70953">
+<author>xyh</author>
+<date>2017-11-01T03:15:53.655552Z</date>
+<msg>1.悬赏雷达界面 过期后支付奔溃的bug
+2.创建圈子地图POI限制30个
+3.个人主页审核状态喜欢按钮位置修改
+4.退款详情图片不能滑动</msg>
+</logentry>
+<logentry
+   revision="70948">
+<author>zhq</author>
+<date>2017-11-01T02:42:34.686955Z</date>
+<msg>1.修改代金券打赏的支付。</msg>
+</logentry>
+<logentry
+   revision="70934">
+<author>xyh</author>
+<date>2017-10-31T12:39:56.123009Z</date>
+<msg>1.订单详情确认服务不弹框</msg>
+</logentry>
+<logentry
+   revision="70929">
+<author>zhq</author>
+<date>2017-10-31T11:43:50.055884Z</date>
+<msg>1.名片刷新模式。</msg>
+</logentry>
+<logentry
+   revision="70922">
+<author>xyh</author>
+<date>2017-10-31T09:56:34.569918Z</date>
+<msg>1.订单列表字体</msg>
+</logentry>
+<logentry
+   revision="70920">
+<author>zhq</author>
+<date>2017-10-31T08:41:48.596067Z</date>
+<msg>1.弹框提示</msg>
+</logentry>
+<logentry
+   revision="70916">
+<author>xyh</author>
+<date>2017-10-31T08:17:36.763454Z</date>
+<msg>1.订单详情退款和拒绝退款不弹框</msg>
+</logentry>
+<logentry
+   revision="70913">
+<author>zhq</author>
+<date>2017-10-31T08:09:40.894954Z</date>
+<msg>1.订单列表提示按钮。</msg>
+</logentry>
+<logentry
+   revision="70912">
+<author>xyh</author>
+<date>2017-10-31T08:07:03.613737Z</date>
+<msg>1.提示框样式修改
+2.退款理由界面弹框修改</msg>
+</logentry>
+<logentry
+   revision="70902">
+<author>zhq</author>
+<date>2017-10-31T07:30:07.622202Z</date>
+<msg>1.修改地图酷神列表；
+2.修改订单通知列表；
+3.修改悬赏和预约单列表。</msg>
+</logentry>
+<logentry
+   revision="70884">
+<author>hzz</author>
+<date>2017-10-31T03:50:28.915848Z</date>
+<msg>更新订单详情部分逻辑
+添加服务流程待付款和待接单状态下点击取消预约时，新增弹窗提示</msg>
+</logentry>
+<logentry
+   revision="70881">
+<author>hzz</author>
+<date>2017-10-31T03:13:13.438226Z</date>
+<msg>添加订单详情状态代理接口</msg>
+</logentry>
+<logentry
+   revision="70877">
+<author>hzz</author>
+<date>2017-10-31T02:33:16.344996Z</date>
+<msg>更改空视图的Image
+修复定时器逻辑</msg>
+</logentry>
+<logentry
+   revision="70875">
+<author>zhq</author>
+<date>2017-10-31T02:22:41.089251Z</date>
+<msg>1.订单详情刷新订单列表。</msg>
+</logentry>
+<logentry
+   revision="70874">
+<author>xyh</author>
+<date>2017-10-31T02:14:58.402920Z</date>
+<msg>1.悬赏订单详情倒计时 刷新异常</msg>
+</logentry>
+<logentry
+   revision="70835">
+<author>hzz</author>
+<date>2017-10-30T10:01:58.729218Z</date>
+<msg>更新 删除悬赏的提示</msg>
+</logentry>
+<logentry
+   revision="70827">
+<author>xyh</author>
+<date>2017-10-30T09:28:48.452860Z</date>
+<msg>1.服务订单详情点击横线下部分跳转</msg>
+</logentry>
+<logentry
+   revision="70826">
+<author>hzz</author>
+<date>2017-10-30T09:09:47.455436Z</date>
+<msg>更新订单过期查询接口</msg>
+</logentry>
+<logentry
+   revision="70825">
+<author>xyh</author>
+<date>2017-10-30T09:07:32.479762Z</date>
+<msg>1.服务订单详情价格显示
+2.订单列表价格显示</msg>
+</logentry>
+<logentry
+   revision="70819">
+<author>zhq</author>
+<date>2017-10-30T08:18:04.865279Z</date>
+<msg>1.订单列表按钮展示优化。</msg>
+</logentry>
+<logentry
+   revision="70814">
+<author>hzz</author>
+<date>2017-10-30T07:44:04.706933Z</date>
+<msg>取消退款理由的点击事件</msg>
+</logentry>
+<logentry
+   revision="70812">
+<author>zhq</author>
+<date>2017-10-30T06:48:45.539673Z</date>
+<msg>1.地图和订单列表优化。</msg>
+</logentry>
+<logentry
+   revision="70811">
+<author>xyh</author>
+<date>2017-10-30T06:47:47.335970Z</date>
+<msg>1.悬赏订单列表同意退款
+2.发布悬赏单位根据类型取</msg>
+</logentry>
+<logentry
+   revision="70807">
+<author>hzz</author>
+<date>2017-10-30T04:01:49.328331Z</date>
+<msg>添加订单详情accountNo为nil的异常处理</msg>
+</logentry>
+<logentry
+   revision="70801">
+<author>zhq</author>
+<date>2017-10-30T03:20:12.231945Z</date>
+<msg>1.更换图片。
+</msg>
+</logentry>
+<logentry
+   revision="70800">
+<author>zhq</author>
+<date>2017-10-30T03:19:47.209501Z</date>
+<msg>1.修改支付流程界面跳转逻辑。
+2.更换图片。
+</msg>
+</logentry>
+<logentry
+   revision="70796">
+<author>hzz</author>
+<date>2017-10-30T03:07:00.124954Z</date>
+<msg>修改合集金额显示不出来bug</msg>
+</logentry>
+<logentry
+   revision="70795">
+<author>hzz</author>
+<date>2017-10-30T03:00:10.093834Z</date>
+<msg>悬赏订单详情去掉评价入口</msg>
+</logentry>
+<logentry
+   revision="70794">
+<author>zhq</author>
+<date>2017-10-30T02:59:06.835722Z</date>
+<msg>1.修改支付流程界面跳转逻辑。
+</msg>
+</logentry>
+<logentry
+   revision="70791">
+<author>xyh</author>
+<date>2017-10-30T02:26:59.748738Z</date>
+<msg>1.悬赏大厅详情 已选人、未支付状态 查看订单按钮显示的bug</msg>
+</logentry>
+<logentry
+   revision="70782">
+<author>xyh</author>
+<date>2017-10-30T01:55:23.924208Z</date>
+<msg>1.悬赏大厅详情查看订单按钮显示不正常的bug
+2.退款详情跳转到订单详情</msg>
+</logentry>
+<logentry
+   revision="70775">
+<author>xyh</author>
+<date>2017-10-27T10:10:52.645366Z</date>
+<msg>1.订单详情界面未选人都跳转到雷达界面</msg>
+</logentry>
+<logentry
+   revision="70774">
+<author>hzz</author>
+<date>2017-10-27T10:09:29.933106Z</date>
+<msg>更改订单详情的引用入口</msg>
+</logentry>
+<logentry
+   revision="70773">
+<author>zhq</author>
+<date>2017-10-27T10:02:32.066149Z</date>
+<msg>1.消息通知列表样式修改；
+2.聊天名片处理。
+</msg>
+</logentry>
+<logentry
+   revision="70763">
+<author>xyh</author>
+<date>2017-10-27T07:52:34.024113Z</date>
+<msg>1.悬赏详情电话按钮显示</msg>
+</logentry>
+<logentry
+   revision="70759">
+<author>zhq</author>
+<date>2017-10-27T07:46:19.785339Z</date>
+<msg>1.消息通知列表跳转；
+2.订单列表回调刷新。
+</msg>
+</logentry>
+<logentry
+   revision="70756">
+<author>hzz</author>
+<date>2017-10-27T07:42:56.261216Z</date>
+<msg>1. 给订单详情添加按钮动作提示语</msg>
+</logentry>
+<logentry
+   revision="70750">
+<author>zhq</author>
+<date>2017-10-27T07:14:10.642820Z</date>
+<msg>1.消息通知列表逻辑修改。
+</msg>
+</logentry>
+<logentry
+   revision="70744">
+<author>hzz</author>
+<date>2017-10-27T04:19:58.489027Z</date>
+<msg>添加点击事件提示语</msg>
+</logentry>
+<logentry
+   revision="70739">
+<author>xyh</author>
+<date>2017-10-27T03:36:32.365159Z</date>
+<msg>1.退款、拒绝退款成功后提示语修改</msg>
+</logentry>
+<logentry
+   revision="70737">
+<author>hzz</author>
+<date>2017-10-27T03:02:12.444226Z</date>
+<msg>1. 更新接单状态码</msg>
+</logentry>
+<logentry
+   revision="70736">
+<author>hzz</author>
+<date>2017-10-27T02:55:15.965686Z</date>
+<msg>1 新增接单之后的返回的新状态码</msg>
+</logentry>
+<logentry
+   revision="70732">
+<author>hzz</author>
+<date>2017-10-27T01:38:27.745501Z</date>
+<msg>1. 接单或者拒绝的时候添加提示
+2. 悬赏详情申请退款时添加提示
+3. 预约订单同上</msg>
+</logentry>
+<logentry
+   revision="70729">
+<author>zhq</author>
+<date>2017-10-26T13:04:28.447835Z</date>
+<msg>1.修改消息通知列表。
+</msg>
+</logentry>
+<logentry
+   revision="70716">
+<author>zhq</author>
+<date>2017-10-26T09:11:19.692512Z</date>
+<msg>1.修改悬赏订单列表和预约单列表提示语。
+</msg>
+</logentry>
+<logentry
+   revision="70688">
+<author>hzz</author>
+<date>2017-10-26T05:14:44.865847Z</date>
+<msg>1. 添加查询过期接口
+2. 更改订单详情显示逻辑</msg>
+</logentry>
+<logentry
+   revision="70670">
+<author>hzz</author>
+<date>2017-10-25T10:09:28.867798Z</date>
+<msg>1. 处理了订单详情循环引用问题</msg>
+</logentry>
+<logentry
+   revision="70669">
+<author>zhq</author>
+<date>2017-10-25T09:43:39.409134Z</date>
+<msg>1.修改根据会员类型进入订单列表的样式。
+</msg>
+</logentry>
+<logentry
+   revision="70667">
+<author>hzz</author>
+<date>2017-10-25T09:32:37.523593Z</date>
+<msg>1. 添加订单详情头像 以及 服务详情 的点击跳转事件</msg>
+</logentry>
+<logentry
+   revision="70664">
+<author>hzz</author>
+<date>2017-10-25T09:10:15.635891Z</date>
+<msg>1. 更换倒计时的样式 以及 逻辑</msg>
+</logentry>
+<logentry
+   revision="70658">
+<author>zhq</author>
+<date>2017-10-25T08:37:54.861809Z</date>
+<msg>1.消息提醒设置修改不能重复点击；
+2.群聊消息提醒设置修复。
+3.修改推送消息震动声音。
+</msg>
+</logentry>
+<logentry
+   revision="70657">
+<author>zhq</author>
+<date>2017-10-25T08:25:47.065679Z</date>
+<msg>1.消息提醒设置修改不能重复点击；
+2.群聊消息提醒设置修复。
+3.修改推送消息震动声音。
+</msg>
+</logentry>
+<logentry
+   revision="70655">
+<author>xyh</author>
+<date>2017-10-25T07:51:22.002881Z</date>
+<msg>1.悬赏大厅列表高度</msg>
+</logentry>
+<logentry
+   revision="70654">
+<author>xyh</author>
+<date>2017-10-25T07:44:25.555542Z</date>
+<msg>1.意见反馈界面图片删除按钮不见的bug</msg>
+</logentry>
+<logentry
+   revision="70653">
+<author>xyh</author>
+<date>2017-10-25T07:43:52.873123Z</date>
+<msg>1.loading 透明</msg>
+</logentry>
+<logentry
+   revision="70652">
+<author>zhq</author>
+<date>2017-10-25T07:08:37.020135Z</date>
+<msg>1.悬赏订单列表。
+</msg>
+</logentry>
+<logentry
+   revision="70651">
+<author>xyh</author>
+<date>2017-10-25T06:13:45.432428Z</date>
+<msg>1.悬赏大厅显示不全
+2.发布服务和发布悬赏显示不全
+3.删除服务</msg>
+</logentry>
+<logentry
+   revision="70645">
+<author>hzz</author>
+<date>2017-10-25T03:33:32.802699Z</date>
+<msg>1. 更新预约单详情界面</msg>
+</logentry>
+<logentry
+   revision="70642">
+<author>zhq</author>
+<date>2017-10-25T02:16:14.990179Z</date>
+<msg>1.修改订单详情plist。
+</msg>
+</logentry>
+<logentry
+   revision="70635">
+<author>zhq</author>
+<date>2017-10-25T01:17:07.918429Z</date>
+<msg>1.订单详情部分接口调试和修改。
+</msg>
+</logentry>
+<logentry
+   revision="70631">
+<author>hzz</author>
+<date>2017-10-24T10:33:13.983053Z</date>
+<msg>1. 添加拒绝理由样式</msg>
+</logentry>
+<logentry
+   revision="70615">
+<author>hzz</author>
+<date>2017-10-24T06:35:27.409549Z</date>
+<msg>修复音频播放路径</msg>
+</logentry>
+<logentry
+   revision="70594">
+<author>hzz</author>
+<date>2017-10-24T03:57:02.735770Z</date>
+<msg>1. 重构DTAudioPlayView
+2. 完善预约单详情</msg>
+</logentry>
+<logentry
+   revision="70593">
+<author>zhq</author>
+<date>2017-10-24T03:56:07.230258Z</date>
+<msg>1.调试申请退款和拒绝退款接口。
+</msg>
+</logentry>
+<logentry
+   revision="70591">
+<author>xyh</author>
+<date>2017-10-24T02:38:41.917042Z</date>
+<msg>1.实名认证界面 正则处理方式</msg>
+</logentry>
+<logentry
+   revision="70587">
+<author>hzz</author>
+<date>2017-10-23T10:44:46.913008Z</date>
+<msg>1. 添加订单接口动作</msg>
+</logentry>
+<logentry
+   revision="70586">
+<author>hzz</author>
+<date>2017-10-23T10:33:57.195879Z</date>
+<msg>更新预约单详情</msg>
+</logentry>
+<logentry
+   revision="70584">
+<author>hzz</author>
+<date>2017-10-23T09:45:18.115947Z</date>
+<msg>1. 修复冲突
+2. 更新接口
+3. 更新订单列表
+4. 更新订单详情
+</msg>
+</logentry>
+<logentry
+   revision="70573">
+<author>zhq</author>
+<date>2017-10-23T07:10:35.352026Z</date>
+<msg>1.订单列表通知修改。
+</msg>
+</logentry>
+<logentry
+   revision="70572">
+<author>zhq</author>
+<date>2017-10-23T04:09:35.902066Z</date>
+<msg>1.修改取消订单页面。
+</msg>
+</logentry>
+<logentry
+   revision="70570">
+<author>zhq</author>
+<date>2017-10-23T03:02:59.026737Z</date>
+<msg>1.修改订单悬赏相关接口；
+2.修改取消订单页面。
+</msg>
+</logentry>
+<logentry
+   revision="70564">
+<author>zhq</author>
+<date>2017-10-20T10:18:10.011032Z</date>
+<msg>1.调试预约单列表接口。
+</msg>
+</logentry>
+<logentry
+   revision="70561">
+<author>hzz</author>
+<date>2017-10-20T09:40:26.484412Z</date>
+<msg>1. 添加订单详情页点击注意事项</msg>
+</logentry>
+<logentry
+   revision="70560">
+<author>xyh</author>
+<date>2017-10-20T09:35:56.429350Z</date>
+<msg>1.个人主页iOS 11界面适配</msg>
+</logentry>
+<logentry
+   revision="70511">
+<author>xyh</author>
+<date>2017-10-19T10:40:20.280813Z</date>
+<msg>1.悬赏详情订单编号及查看订单按钮</msg>
+</logentry>
+<logentry
+   revision="70510">
+<author>hzz</author>
+<date>2017-10-19T10:40:09.906680Z</date>
+<msg>1. 添加一hook
+2. 更新订单详情配置文件</msg>
+</logentry>
+</log>
